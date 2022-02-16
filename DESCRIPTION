@@ -1,11 +1,11 @@
-Package: strsplit.fix.num
+Package: strsplit.fix
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Split a string in fixed_size chunks but do it fast
 Version: 1.0
 Date: 2022-02-16
 Author: Jonathan Berrisch
 Maintainer: Jonathan Berrisch <jonathan@berrisch.biz>
-Description: Implements a slightly adjusted version of https://stackoverflow.com/a/36232987/9551847 which splits strings. The adjusments converts to numeric using boost/lexical_cast see https://gallery.rcpp.org/articles/a-second-boost-example/.
+Description: Implements https://stackoverflow.com/a/36232987/9551847 which splits strings.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.8)
 LinkingTo: Rcpp
