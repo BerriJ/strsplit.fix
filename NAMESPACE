@@ -1,0 +1,3 @@
+useDynLib(strsplit.fix.num, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
